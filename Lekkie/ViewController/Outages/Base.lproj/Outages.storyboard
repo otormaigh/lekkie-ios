@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Outages View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="OutagesViewController" customModule="Lekkie" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="4rn-39-oFB">
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="OutagesReuseID" rowHeight="102" id="H4O-Cc-GfV" userLabel="OutagtesReuseID" customClass="OutageTableViewCell" customModule="Lekkie" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55.333333333333343" width="414" height="102"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="H4O-Cc-GfV" id="URU-xM-r0J">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="101.66666666666667"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Middletown, Carlow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="187" translatesAutoresizingMaskIntoConstraints="NO" id="MAn-jk-ufI" userLabel="Location Label">
+                                                    <rect key="frame" x="20" y="11" width="187" height="24"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="January 1, 1970" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lPl-nf-vMF" userLabel="Estimated Restore Label">
+                                                    <rect key="frame" x="20" y="43" width="113" height="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Planned" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n5t-UE-aE7" userLabel="Type Label">
+                                                    <rect key="frame" x="20" y="63" width="59" height="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="lPl-nf-vMF" firstAttribute="top" secondItem="MAn-jk-ufI" secondAttribute="bottom" constant="8" id="1jj-uu-1Wb"/>
+                                                <constraint firstItem="MAn-jk-ufI" firstAttribute="leading" secondItem="URU-xM-r0J" secondAttribute="leadingMargin" id="5td-CS-l2c"/>
+                                                <constraint firstItem="n5t-UE-aE7" firstAttribute="top" secondItem="lPl-nf-vMF" secondAttribute="bottom" id="NgJ-iw-4Mq"/>
+                                                <constraint firstItem="MAn-jk-ufI" firstAttribute="top" secondItem="URU-xM-r0J" secondAttribute="topMargin" id="T3G-b7-RDU"/>
+                                                <constraint firstItem="n5t-UE-aE7" firstAttribute="top" secondItem="lPl-nf-vMF" secondAttribute="bottom" id="nGW-2u-iNI"/>
+                                                <constraint firstItem="n5t-UE-aE7" firstAttribute="leading" secondItem="URU-xM-r0J" secondAttribute="leadingMargin" id="yax-cT-SkC"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="n5t-UE-aE7" secondAttribute="bottom" constant="8" id="z9p-nl-mLa"/>
+                                                <constraint firstItem="lPl-nf-vMF" firstAttribute="leading" secondItem="URU-xM-r0J" secondAttribute="leadingMargin" id="zEV-NH-UUe"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="estRestoreLabel" destination="lPl-nf-vMF" id="IXc-VC-Yo4"/>
+                                            <outlet property="locationLabel" destination="MAn-jk-ufI" id="sSL-pd-3KK"/>
+                                            <outlet property="typeLabel" destination="n5t-UE-aE7" id="LIN-Yt-XVU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="3di-LO-SOL"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="UxK-Ou-HDF"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="4rn-39-oFB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8MD-35-D3e"/>
+                            <constraint firstItem="4rn-39-oFB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="AWB-Om-4Cz"/>
+                            <constraint firstItem="4rn-39-oFB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="H5u-kc-cNo"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4rn-39-oFB" secondAttribute="bottom" id="UIc-tb-g7A"/>
+                            <constraint firstItem="4rn-39-oFB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="x4V-2A-cff"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="4rn-39-oFB" id="8fW-1s-5IN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="31.884057971014496" y="33.423913043478265"/>
+        </scene>
+    </scenes>
+</document>

@@ -7,21 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		664801363B15D3A0AEC28FFE /* Pods_Lekkie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE87A098448835BE3366D04 /* Pods_Lekkie.framework */; };
 		8B1A8B4120F7EDDD001DE6A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A8B4020F7EDDD001DE6A3 /* AppDelegate.swift */; };
-		8B1A8B4320F7EDDD001DE6A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A8B4220F7EDDD001DE6A3 /* ViewController.swift */; };
-		8B1A8B4620F7EDDD001DE6A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1A8B4420F7EDDD001DE6A3 /* Main.storyboard */; };
+		8B1A8B4320F7EDDD001DE6A3 /* OutagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1A8B4220F7EDDD001DE6A3 /* OutagesViewController.swift */; };
+		8B1A8B4620F7EDDD001DE6A3 /* Outages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1A8B4420F7EDDD001DE6A3 /* Outages.storyboard */; };
 		8B1A8B4820F7EDDE001DE6A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B1A8B4720F7EDDE001DE6A3 /* Assets.xcassets */; };
 		8B1A8B4B20F7EDDE001DE6A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1A8B4920F7EDDE001DE6A3 /* LaunchScreen.storyboard */; };
+		8B2CA83920F8C28E00FC09DB /* EndPointType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA83820F8C28E00FC09DB /* EndPointType.swift */; };
+		8B2CA83B20F8C31A00FC09DB /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA83A20F8C31A00FC09DB /* HTTPMethod.swift */; };
+		8B2CA83D20F8C35700FC09DB /* HTTPTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA83C20F8C35700FC09DB /* HTTPTask.swift */; };
+		8B2CA83F20F8C39300FC09DB /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA83E20F8C39300FC09DB /* HTTPHeaders.swift */; };
+		8B2CA84220F8C3BB00FC09DB /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA84120F8C3BB00FC09DB /* ParameterEncoding.swift */; };
+		8B2CA84620F8C48B00FC09DB /* URLParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA84520F8C48B00FC09DB /* URLParameterEncoder.swift */; };
+		8B2CA84820F8C5F200FC09DB /* JSONParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA84720F8C5F200FC09DB /* JSONParameterEncoder.swift */; };
+		8B2CA84A20F8C6AB00FC09DB /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA84920F8C6AB00FC09DB /* NetworkRouter.swift */; };
+		8B2CA84C20F8C74900FC09DB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA84B20F8C74900FC09DB /* Router.swift */; };
+		8B2CA84F20F8CE0700FC09DB /* LekkieApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA84E20F8CE0700FC09DB /* LekkieApi.swift */; };
+		8B2CA85220F8CF7100FC09DB /* Outage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA85120F8CF7100FC09DB /* Outage.swift */; };
+		8B2CA85520F8D1F400FC09DB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA85420F8D1F400FC09DB /* NetworkManager.swift */; };
+		8B2CA85820F8DBE400FC09DB /* NetworkLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2CA85720F8DBE400FC09DB /* NetworkLogger.swift */; };
+		8B3AB96220FA56C8006E1443 /* OutagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3AB96120FA56C8006E1443 /* OutagesViewModel.swift */; };
+		8B3AB96520FA5B0C006E1443 /* OutagesTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3AB96420FA5B0C006E1443 /* OutagesTableViewModel.swift */; };
+		8BFE314320F8F042006566A4 /* OutageMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE314220F8F042006566A4 /* OutageMessage.swift */; };
+		8BFE314520F8FA78006566A4 /* OutageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFE314420F8FA78006566A4 /* OutageTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3BB680DF47F14AB818F388DC /* Pods-Lekkie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lekkie.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lekkie/Pods-Lekkie.release.xcconfig"; sourceTree = "<group>"; };
+		6AE87A098448835BE3366D04 /* Pods_Lekkie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lekkie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1A8B3D20F7EDDD001DE6A3 /* Lekkie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lekkie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1A8B4020F7EDDD001DE6A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B1A8B4220F7EDDD001DE6A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8B1A8B4520F7EDDD001DE6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B1A8B4220F7EDDD001DE6A3 /* OutagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutagesViewController.swift; sourceTree = "<group>"; };
+		8B1A8B4520F7EDDD001DE6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Outages.storyboard; sourceTree = "<group>"; };
 		8B1A8B4720F7EDDE001DE6A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1A8B4A20F7EDDE001DE6A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B1A8B4C20F7EDDE001DE6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B2CA83820F8C28E00FC09DB /* EndPointType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointType.swift; sourceTree = "<group>"; };
+		8B2CA83A20F8C31A00FC09DB /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		8B2CA83C20F8C35700FC09DB /* HTTPTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPTask.swift; sourceTree = "<group>"; };
+		8B2CA83E20F8C39300FC09DB /* HTTPHeaders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPHeaders.swift; sourceTree = "<group>"; };
+		8B2CA84120F8C3BB00FC09DB /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
+		8B2CA84520F8C48B00FC09DB /* URLParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLParameterEncoder.swift; sourceTree = "<group>"; };
+		8B2CA84720F8C5F200FC09DB /* JSONParameterEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParameterEncoder.swift; sourceTree = "<group>"; };
+		8B2CA84920F8C6AB00FC09DB /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		8B2CA84B20F8C74900FC09DB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		8B2CA84E20F8CE0700FC09DB /* LekkieApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LekkieApi.swift; sourceTree = "<group>"; };
+		8B2CA85120F8CF7100FC09DB /* Outage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Outage.swift; sourceTree = "<group>"; };
+		8B2CA85420F8D1F400FC09DB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		8B2CA85720F8DBE400FC09DB /* NetworkLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLogger.swift; sourceTree = "<group>"; };
+		8B3AB96120FA56C8006E1443 /* OutagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutagesViewModel.swift; sourceTree = "<group>"; };
+		8B3AB96420FA5B0C006E1443 /* OutagesTableViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutagesTableViewModel.swift; sourceTree = "<group>"; };
+		8BFE314220F8F042006566A4 /* OutageMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutageMessage.swift; sourceTree = "<group>"; };
+		8BFE314420F8FA78006566A4 /* OutageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutageTableViewCell.swift; sourceTree = "<group>"; };
+		E21105D280217D68CCE32F94 /* Pods-Lekkie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lekkie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lekkie/Pods-Lekkie.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				664801363B15D3A0AEC28FFE /* Pods_Lekkie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A833F902936860A6168F05A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E21105D280217D68CCE32F94 /* Pods-Lekkie.debug.xcconfig */,
+				3BB680DF47F14AB818F388DC /* Pods-Lekkie.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		8B1A8B3420F7EDDD001DE6A3 = {
 			isa = PBXGroup;
 			children = (
 				8B1A8B3F20F7EDDD001DE6A3 /* Lekkie */,
 				8B1A8B3E20F7EDDD001DE6A3 /* Products */,
+				8A833F902936860A6168F05A /* Pods */,
+				B643EFA96BFBFB748DA89ECF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +104,111 @@
 		8B1A8B3F20F7EDDD001DE6A3 /* Lekkie */ = {
 			isa = PBXGroup;
 			children = (
+				8B2CA85620F8D56500FC09DB /* ViewController */,
+				8B2CA83620F8C23A00FC09DB /* Networking */,
 				8B1A8B4020F7EDDD001DE6A3 /* AppDelegate.swift */,
-				8B1A8B4220F7EDDD001DE6A3 /* ViewController.swift */,
-				8B1A8B4420F7EDDD001DE6A3 /* Main.storyboard */,
 				8B1A8B4720F7EDDE001DE6A3 /* Assets.xcassets */,
 				8B1A8B4920F7EDDE001DE6A3 /* LaunchScreen.storyboard */,
 				8B1A8B4C20F7EDDE001DE6A3 /* Info.plist */,
 			);
 			path = Lekkie;
+			sourceTree = "<group>";
+		};
+		8B2CA83620F8C23A00FC09DB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CA85320F8D1EB00FC09DB /* Manager */,
+				8B2CA85020F8CF6A00FC09DB /* Model */,
+				8B2CA84D20F8CDFC00FC09DB /* EndPoint */,
+				8B2CA84020F8C3B300FC09DB /* Encoding */,
+				8B2CA83720F8C27F00FC09DB /* Service */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		8B2CA83720F8C27F00FC09DB /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CA83820F8C28E00FC09DB /* EndPointType.swift */,
+				8B2CA83A20F8C31A00FC09DB /* HTTPMethod.swift */,
+				8B2CA83C20F8C35700FC09DB /* HTTPTask.swift */,
+				8B2CA83E20F8C39300FC09DB /* HTTPHeaders.swift */,
+				8B2CA84920F8C6AB00FC09DB /* NetworkRouter.swift */,
+				8B2CA84B20F8C74900FC09DB /* Router.swift */,
+				8B2CA85720F8DBE400FC09DB /* NetworkLogger.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		8B2CA84020F8C3B300FC09DB /* Encoding */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CA84120F8C3BB00FC09DB /* ParameterEncoding.swift */,
+				8B2CA84520F8C48B00FC09DB /* URLParameterEncoder.swift */,
+				8B2CA84720F8C5F200FC09DB /* JSONParameterEncoder.swift */,
+			);
+			path = Encoding;
+			sourceTree = "<group>";
+		};
+		8B2CA84D20F8CDFC00FC09DB /* EndPoint */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CA84E20F8CE0700FC09DB /* LekkieApi.swift */,
+			);
+			path = EndPoint;
+			sourceTree = "<group>";
+		};
+		8B2CA85020F8CF6A00FC09DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CA85120F8CF7100FC09DB /* Outage.swift */,
+				8BFE314220F8F042006566A4 /* OutageMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8B2CA85320F8D1EB00FC09DB /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8B2CA85420F8D1F400FC09DB /* NetworkManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		8B2CA85620F8D56500FC09DB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE314020F8EBE1006566A4 /* Outages */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		8B3AB96320FA5AF0006E1443 /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8BFE314420F8FA78006566A4 /* OutageTableViewCell.swift */,
+				8B3AB96420FA5B0C006E1443 /* OutagesTableViewModel.swift */,
+			);
+			path = "Table View Cell";
+			sourceTree = "<group>";
+		};
+		8BFE314020F8EBE1006566A4 /* Outages */ = {
+			isa = PBXGroup;
+			children = (
+				8B3AB96320FA5AF0006E1443 /* Table View Cell */,
+				8B1A8B4420F7EDDD001DE6A3 /* Outages.storyboard */,
+				8B1A8B4220F7EDDD001DE6A3 /* OutagesViewController.swift */,
+				8B3AB96120FA56C8006E1443 /* OutagesViewModel.swift */,
+			);
+			path = Outages;
+			sourceTree = "<group>";
+		};
+		B643EFA96BFBFB748DA89ECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AE87A098448835BE3366D04 /* Pods_Lekkie.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B1A8B4F20F7EDDE001DE6A3 /* Build configuration list for PBXNativeTarget "Lekkie" */;
 			buildPhases = (
+				5AB36DCBA948741E08B6955D /* [CP] Check Pods Manifest.lock */,
 				8B1A8B3920F7EDDD001DE6A3 /* Sources */,
 				8B1A8B3A20F7EDDD001DE6A3 /* Frameworks */,
 				8B1A8B3B20F7EDDD001DE6A3 /* Resources */,
@@ -124,31 +272,69 @@
 			files = (
 				8B1A8B4B20F7EDDE001DE6A3 /* LaunchScreen.storyboard in Resources */,
 				8B1A8B4820F7EDDE001DE6A3 /* Assets.xcassets in Resources */,
-				8B1A8B4620F7EDDD001DE6A3 /* Main.storyboard in Resources */,
+				8B1A8B4620F7EDDD001DE6A3 /* Outages.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AB36DCBA948741E08B6955D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lekkie-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B1A8B3920F7EDDD001DE6A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B1A8B4320F7EDDD001DE6A3 /* ViewController.swift in Sources */,
+				8B1A8B4320F7EDDD001DE6A3 /* OutagesViewController.swift in Sources */,
+				8B2CA83F20F8C39300FC09DB /* HTTPHeaders.swift in Sources */,
+				8B2CA85520F8D1F400FC09DB /* NetworkManager.swift in Sources */,
+				8B2CA84C20F8C74900FC09DB /* Router.swift in Sources */,
+				8B3AB96520FA5B0C006E1443 /* OutagesTableViewModel.swift in Sources */,
+				8B2CA83D20F8C35700FC09DB /* HTTPTask.swift in Sources */,
+				8BFE314320F8F042006566A4 /* OutageMessage.swift in Sources */,
+				8B2CA85820F8DBE400FC09DB /* NetworkLogger.swift in Sources */,
+				8B2CA83920F8C28E00FC09DB /* EndPointType.swift in Sources */,
+				8B2CA84F20F8CE0700FC09DB /* LekkieApi.swift in Sources */,
+				8B2CA84620F8C48B00FC09DB /* URLParameterEncoder.swift in Sources */,
+				8B2CA83B20F8C31A00FC09DB /* HTTPMethod.swift in Sources */,
+				8B3AB96220FA56C8006E1443 /* OutagesViewModel.swift in Sources */,
+				8B2CA85220F8CF7100FC09DB /* Outage.swift in Sources */,
+				8B2CA84220F8C3BB00FC09DB /* ParameterEncoding.swift in Sources */,
+				8BFE314520F8FA78006566A4 /* OutageTableViewCell.swift in Sources */,
+				8B2CA84820F8C5F200FC09DB /* JSONParameterEncoder.swift in Sources */,
 				8B1A8B4120F7EDDD001DE6A3 /* AppDelegate.swift in Sources */,
+				8B2CA84A20F8C6AB00FC09DB /* NetworkRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8B1A8B4420F7EDDD001DE6A3 /* Main.storyboard */ = {
+		8B1A8B4420F7EDDD001DE6A3 /* Outages.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8B1A8B4520F7EDDD001DE6A3 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Outages.storyboard;
 			sourceTree = "<group>";
 		};
 		8B1A8B4920F7EDDE001DE6A3 /* LaunchScreen.storyboard */ = {
@@ -278,6 +464,7 @@
 		};
 		8B1A8B5020F7EDDE001DE6A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E21105D280217D68CCE32F94 /* Pods-Lekkie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +482,7 @@
 		};
 		8B1A8B5120F7EDDE001DE6A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB680DF47F14AB818F388DC /* Pods-Lekkie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
