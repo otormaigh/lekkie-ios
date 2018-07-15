@@ -27,7 +27,7 @@ extension OutagesViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "OutagesReuseID", for: indexPath) as! OutageTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: OutageTableViewCell.reuseIdentifier, for: indexPath) as! OutageTableViewCell
         let model = viewModel.cellModel(for: indexPath)
         cell.locationLabel.text = model.location
         cell.estRestoreLabel.text = model.estRestoreTime

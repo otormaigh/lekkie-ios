@@ -9,11 +9,9 @@
 import UIKit
 
 class OutageTableViewCell: UITableViewCell {
-    static let reuseIdentifier = "OutagtesReuseID"
+    static let reuseIdentifier = "OutagesReuseID"
     
     @IBOutlet var locationLabel: UILabel!
     @IBOutlet var estRestoreLabel: UILabel!
     @IBOutlet var typeLabel: UILabel!
 }
-
-
